@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// style Component
+
 import {
   Table,
   Header,
@@ -10,7 +10,6 @@ import {
   TransactionLine,
 } from './TransactionHistory.styled';
 
-// utils
 import { normalizeType } from '../utilis/normalizeType';
 
 function TransactionTable({ items }) {
