@@ -9,7 +9,7 @@ import {
   TransactionValue,
   TransactionLine,
 } from './TransactionHistory.styled';
-
+// function in utilis
 import { normalizeType } from '../utilis/normalizeType';
 
 function TransactionTable({ items }) {
